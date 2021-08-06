@@ -1,0 +1,40 @@
+###
+GET  http://127.0.0.1:8080/ads/
+Content-Type: application/json
+
+
+###
+GET  http://127.0.0.1:8080/health
+Content-Type: application/json
+
+###
+POST http://127.0.0.1:8080/ads/
+Content-Type: application/json
+
+{
+    "title": "fdsdsfssdfsdfdfsdf",
+    "description": "dsfsdvssdfsdfsdfdf@@@",
+    "creator": "Kolya"
+}
+
+###
+GET http://127.0.0.1:8080/ads/
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:8080/ads/21
+Content-Type: application/json
+
+###
+DELETE http://127.0.0.1:8080/ads/26
+Content-Type: application/json
+
+###
+PUT http://127.0.0.1:8080/ads/21
+Content-Type: application/json
+
+{
+    "title": "iphone",
+    "description": "best"
+}
